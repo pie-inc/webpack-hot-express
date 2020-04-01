@@ -1,0 +1,35 @@
+{
+  "name": "pie-express-webpack-hmr",
+  "description": "Webpack boilerplate of Hot Module Replacement with Express server",
+  "version": "0.0.1",
+  "keywords": [
+    "webpack",
+    "express",
+    "hmr",
+    "hot-module-replacement"
+  ],
+  "author": "J Lopes <mail@jlopes.eu> (https://jlopes.eu)",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node server",
+    "serve": "NODE_ENV=production node server",
+    "build": "NODE_ENV=production webpack --mode production"
+  },
+  "license": "ISC"
+}
