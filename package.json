@@ -1,5 +1,5 @@
 {
-  "name": "pie-express-webpack-hmr",
+  "name": "webpack-hot-express",
   "description": "Webpack boilerplate of Hot Module Replacement with Express server",
   "version": "0.0.1",
   "keywords": [
