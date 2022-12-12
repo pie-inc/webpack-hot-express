@@ -10,7 +10,7 @@
   ],
   "author": "J Lopes <mail@jlopes.eu> (https://jlopes.eu)",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
